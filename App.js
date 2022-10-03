@@ -1,16 +1,12 @@
-import {
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
-
+import CategoriesScreen from './screens/CategoriesScreen';
 import React from 'react';
+import {
+  StyleSheet
+} from 'react-native';
 
 export default App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Hello World!</Text>
-    </View >
+    <CategoriesScreen />
   )
 }
 
